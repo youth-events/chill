@@ -1,5 +1,5 @@
 // push
-function notifyMe () {
+function start () {
 	Push.create("Уведомление от chill-vn", {
 		body: "Новое мероприятие 16_07_2023",
 		icon: 'https://youth-events.github.io/chill/images/coffee_icon.png',
