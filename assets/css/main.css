@@ -2404,7 +2404,7 @@ input, select, textarea {
 	#banner {
 		background: #fff;
 		text-align: center;
-		padding: 4.5em 0 4.5em 0;
+		padding: 4.5em 0 2em 0;
 		margin-bottom: 0;
 	}
 
@@ -3346,6 +3346,13 @@ input, select, textarea {
 	}
 	}
 	/* конец кнопки пульс */
+
+
+
+
+
+
+
 * {
 	scroll-behavior: smooth !important;
 }
