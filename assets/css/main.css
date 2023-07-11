@@ -3388,4 +3388,5 @@ input, select, textarea {
 }
 a.a_none_pointer {
 	pointer-events: none !important;
+	cursor: default !important;
 }
