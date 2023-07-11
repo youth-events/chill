@@ -3350,7 +3350,33 @@ input, select, textarea {
 
 
 
-
+/* arrows carousel for mobile */
+@media screen and (max-width: 768px) {
+	.carousel .forward, .carousel .backward {
+		pointer-events: none !important;
+		cursor: none !important;
+	}
+	.carousel .forward:before, .carousel .backward:before {
+		border-radius: 0% !important;
+		width: 5em !important;
+	}
+	.carousel .forward:before {
+		right: -3.9em !important;
+	}
+	.carousel .backward:before {
+		left: -3.9em !important;
+	}
+	.carousel .forward:after {
+		right: -0.75em !important;
+		font-size: 8px !important;
+		margin-right: 5px !important;
+	}
+	.carousel .backward:after {
+		left: -0.75em !important;
+		font-size: 8px !important;
+		margin-left: 5px !important;
+	}
+}
 
 
 * {
