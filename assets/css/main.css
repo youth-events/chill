@@ -3362,9 +3362,13 @@ input, select, textarea {
 	}
 	.carousel .forward:before {
 		right: -3.9em !important;
+		height: 3em !important;
+		margin-top: -1.5em !important
 	}
 	.carousel .backward:before {
 		left: -3.9em !important;
+		height: 3em !important;
+		margin-top: -1.5em !important
 	}
 	.carousel .forward:after {
 		right: -0.75em !important;
