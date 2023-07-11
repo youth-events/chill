@@ -1,4 +1,8 @@
-
+/*
+	Helios by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
 
 (function($) {
 
@@ -185,8 +189,8 @@
 							.css('overflow-y', 'hidden')
 							.css('overflow-x', 'scroll')
 							.scrollLeft(0);
-						$forward.show();
-						$backward.show();
+						$forward.hide();
+						$backward.hide();
 
 					}
 					else {
