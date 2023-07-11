@@ -3386,3 +3386,6 @@ input, select, textarea {
 * {
 	scroll-behavior: smooth !important;
 }
+a.a_none_pointer {
+	pointer-events: none !important;
+}
